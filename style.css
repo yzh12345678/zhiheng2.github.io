@@ -1,0 +1,55 @@
+body {
+	background: #3B2748
+}
+
+.jumbotron {
+	background-image: url(img/hero-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+
+.jumbotron div {
+	color: #fff;
+	margin-top: 100px;
+}
+
+.hui h1 {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	color:#fff;
+}
+.panel {
+	background-color: transparent;
+	border: none;
+}
+
+
+
+.thumbnail {
+	overflow: hidden;
+}
+
+.item-heading {
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+	margin-left: -4px;
+	margin-top: -4px;
+}
+
+.panel-collapse {
+	position: absolute;
+	margin-top: 30px;
+	background-color: #fff;
+}
+
+.thumbnail img {
+	margin-top: 38px;
+	transition: .5s ease-in
+}
+
+.thumbnail img:hover {
+	transform: scale(1.2);
+	transition: .5s ease-out;
+}
